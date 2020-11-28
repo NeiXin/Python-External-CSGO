@@ -7,7 +7,6 @@ External CSGO cheat written in Python
 ``` $ pip install pymem ```
 
 **Features:**
-
 ```
 - Radar
 - Crosshair Triggerbot
