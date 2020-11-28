@@ -34,7 +34,8 @@ def main():
         local_team = pm.read_int(local + team_num)
         crosshair = pm.read_uint(local + crosshair_id)
 
-        # if local player
+        # if local player is valid
+        # get the entity in our crosshair and shoot if they are valid
         if local:
             entity_crosshair_id = pm.read_uint(client_base + entity_list + (crosshair - 1) * 0x10)
             entity_team = pm.read_int(entity_crosshair_id + team_num)
@@ -46,6 +47,7 @@ def main():
                             pm.write_int(client_base + force_attack, 6)
 
         # player entities are in the this range
+        # loop for the entities so we can get the pointer
         for i in range(1, 32):
             entity = pm.read_int(client_base + entity_list + (i * 0x10))
             if entity:
