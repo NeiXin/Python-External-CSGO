@@ -1,12 +1,14 @@
 # Python External CSGO
 External CSGO cheat writtin in Python.
 
-Library used:
-PyMem(for reading and writing memory)
+- Messy code and first time working with memory.
+- PyMem(for reading and writing memory)
+
+``` $ pip install pymem ```
 
 **Features:**
 
 ```
-Radar
-Crosshair Triggerbot
+- Radar
+- Crosshair Triggerbot
 ```
