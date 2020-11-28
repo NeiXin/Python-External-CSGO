@@ -1,5 +1,5 @@
 # Python External CSGO
-External CSGO cheat writtin in Python.
+External CSGO cheat written in Python
 
 - Messy code and first time working with memory.
 - PyMem(for reading and writing memory)
