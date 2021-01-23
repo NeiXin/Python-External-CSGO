@@ -11,4 +11,5 @@ External CSGO cheat written in Python
 ```
 - Radar
 - Crosshair Triggerbot
+- automatically get offsets from hazedumper github repo
 ```
